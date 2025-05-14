@@ -4,6 +4,7 @@ models:
   - name: dbt_c360_silver_users
     columns:
       - name: user_id
+        description: User Id for the identifcation of user
         tests:
           - unique
           - not_null

@@ -24,3 +24,6 @@ models:
       materialized: table
       staging:
         materialized: view
+      +persist_docs:
+        relation: true
+        columns: true
